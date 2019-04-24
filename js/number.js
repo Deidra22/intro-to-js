@@ -31,5 +31,8 @@ console.log(mod);
 var mod = b % c;
 console.log(mod);
 
-var e = '5'; // '' and "" are strings
+var e = '20'; // '' and "" are strings
 console.log(typeof e); //returns the  type of variable
+
+console.log(a === e); // === means exact match
+console.log(a == e);
