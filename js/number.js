@@ -34,5 +34,5 @@ console.log(mod);
 var e = '20'; // '' and "" are strings
 console.log(typeof e); //returns the  type of variable
 
-console.log(a === e); // === means exact match
-console.log(a == e);
+console.log(a === e); // === strict comparison
+console.log(a == e); // == loose comparison // truthy
